@@ -31,4 +31,4 @@ app.get('/api/view/:id/:page', async (req, res) => {
   res.json(json)
 })
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(9000, () => console.log('hkg-proxy listening on port 9000!'))
